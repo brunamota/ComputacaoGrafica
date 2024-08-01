@@ -11,40 +11,35 @@ Sexta - 9h30 às 11h10 - LEC 03
 
 ## Datas Importantes
 
-!![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Não haverá aula - 04/10/2024
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Não haverá aula - 04/10/2024
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/34435c36-5365-4a70-b7b3-bb9fba8a2a74) Entrega da Trabalho 1 (Lista 1 + Kahoot)
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Entrega da Trabalho 1 (Lista 1 + Kahoot)
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/34435c36-5365-4a70-b7b3-bb9fba8a2a74) Entrega Trabalho 2
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Entrega Trabalho 2
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/34435c36-5365-4a70-b7b3-bb9fba8a2a74) Entrega Trabalho 3
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Entrega Trabalho 3
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/34435c36-5365-4a70-b7b3-bb9fba8a2a74) Entrega Trabalho 4
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Entrega Trabalho 4
 
 ## Ferramentas utilizada na matéria
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/34435c36-5365-4a70-b7b3-bb9fba8a2a74) IDE - https://netbeans.apache.org/front/main/index.html ou https://www.jetbrains.com/idea/
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) IDE - https://netbeans.apache.org/front/main/index.html ou https://www.jetbrains.com/idea/
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/34435c36-5365-4a70-b7b3-bb9fba8a2a74) Java - https://www.oracle.com/technetwork/java/javase/downloads
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Java - https://www.oracle.com/technetwork/java/javase/downloads
 
 ## Sololearn
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/34435c36-5365-4a70-b7b3-bb9fba8a2a74) https://www.sololearn.com/pt/learn/courses/java-introduction
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) https://www.sololearn.com/pt/learn/courses/java-introduction
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/34435c36-5365-4a70-b7b3-bb9fba8a2a74) https://www.sololearn.com/pt/learn/courses/java-intermediate
-
-## Bônus
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/34435c36-5365-4a70-b7b3-bb9fba8a2a74) Criar um GitHub para organizar as atividades da disciplina
-
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/34435c36-5365-4a70-b7b3-bb9fba8a2a74) Maior sequência de dias no Sololearn (comprovada)
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) https://www.sololearn.com/pt/learn/courses/java-intermediate
 
 ## Documentos da Disciplina
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/b8344b25-f1a8-418a-905c-9dc41d2a85d5) [Plano de Ensino](https://github.com/brunamota/POO/files/15017784/Plano.de.Ensino.POO.-.01_2024.pdf)
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Plano de Ensino
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/cef9c66b-7539-4c12-9161-4151f7d31bfa) [Aulas](https://github.com/brunamota/POO/blob/main/Aulas.md)
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Aulas
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/cef9c66b-7539-4c12-9161-4151f7d31bfa) [Trabalhos](https://github.com/brunamota/POO/blob/main/Trabalhos.md)
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Trabalhos
 
-![iconGitDiamante](https://github.com/brunamota/POO/assets/66503956/cef9c66b-7539-4c12-9161-4151f7d31bfa) [Material de Apoio](https://github.com/brunamota/POO/files/15018020/Conteudo_POO.pdf)
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Material de Apoio
 
