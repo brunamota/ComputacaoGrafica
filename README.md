@@ -39,11 +39,13 @@ Sexta - 9h30 às 11h10 - LEC 03
 
 ## Documentos da Disciplina
 
-![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Plano de Ensino
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) [Plano de Ensino](https://github.com/user-attachments/files/16549759/Plano.de.Ensino.CG.-.02_2024.pdf)
+
 
 ![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) [Aulas](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas.md)
 
 ![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) [Trabalhos](https://github.com/brunamota/ComputacaoGrafica/blob/main/Trabalhos.md)
 
-![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) Material de Apoio
+![iconGitMorango](https://github.com/user-attachments/assets/8cda2643-9e54-42df-8ae0-faa55cbb8e97) [Material de Apoio](https://github.com/user-attachments/files/16549762/Computacao.grafica.Uma.abordagem.pratica.pdf)
+
 
