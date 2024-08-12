@@ -10,4 +10,5 @@
 
 ![iconGitCristal](https://github.com/user-attachments/assets/e8563a49-711e-4c81-99a6-4dd06bdfc2c2) [Trabalho 3 - Inificação de Recortes](https://github.com/user-attachments/files/16588064/Trabalho.03.-.Inificacao.de.Recortes.pdf)
 
-![iconGitCristal](https://github.com/user-attachments/assets/e8563a49-711e-4c81-99a6-4dd06bdfc2c2) [Trabalho 4 - Dama (Unity)](https://github.com/user-attachments/files/16588065/Trabalho.04.-.Dama.Unity.pdf)
+![iconGitGolden](https://github.com/user-attachments/assets/d565c073-5f73-44e3-8668-5ea7e1971764) [Trabalho 4 - Dama (Unity)](https://github.com/user-attachments/files/16588065/Trabalho.04.-.Dama.Unity.pdf)
+
