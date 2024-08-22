@@ -15,13 +15,19 @@ Sexta - 9h30 às 11h10 - LEC 03
 
 ## Datas Importantes
 
+![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) Vem para a UFJ - 26/09/2024
+
 ![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) Não haverá aula - 04/10/2024
 
 ![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) Entrega da Trabalho 1 - 30/08/2024
 
+![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) CONEPE - 14/10/2024 até 17/10/2024
+
 ![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) Entrega Trabalho 2 - 18/10/2024
 
 ![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) Entrega Trabalho 3 - 08/11/2024
+
+![iconGitMoeda](https://github.com/user-attachments/assets/6dc8dbe4-a3b6-43f9-ad7c-0b0922ae5ede) Semana da Computação - 25/11 a 29/11
 
 ![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) Entrega Trabalho 4 - 13/12/2024
 
