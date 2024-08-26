@@ -2,8 +2,8 @@
 
 ## 🗺️ Roadmap - Cassa ao Tesouro
 
-   - :white_large_square: Criar o jogo
-   - :white_check_mark: Display do personagem
+   - [x] Criar o jogo
+   - [ ] Display do personagem
    - [ ] Controle do personagem
    - [ ] Display background tiles
    - [ ] Display objects
