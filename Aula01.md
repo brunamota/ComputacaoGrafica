@@ -3,11 +3,11 @@
 ## 🗺️ Roadmap
 
 1. Cassa ao Tesouro
-   - [ ] Criar o jogo
+   - [x] Criar o jogo
    - [ ] Display do personagem
-   c. Controle do personagem
-   d. Display background tiles
-   e. Display objects
+   - [ ] Controle do personagem
+   - [ ] Display background tiles
+   - [ ] Display objects
 
 ## Project SetUp
 
