@@ -8,7 +8,7 @@
    - [ ] Display background tiles
    - [ ] Display objects
 
-## Project SetUp
+## 🔧 Project SetUp
 
    - [x] Criar projeto chamado Game2D
    - [x] Criar classe Janela
