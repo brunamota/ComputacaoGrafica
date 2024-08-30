@@ -1,6 +1,6 @@
 # Aula 1 -  O mecanismo dos jogos 2D
 
-## 🗺️ Roadmap - Cassa ao Tesouro
+## 🗺️ Roadmap - Caça ao Tesouro
 
    - [x] Criar o jogo
    - [ ] Display do personagem
