@@ -10,4 +10,8 @@
 
 ![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 2 - Criando um game loop](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula02.md)
 
+  - [JogoCG.zip](https://github.com/user-attachments/files/16907640/JogoCG.zip)
+
 ![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 3 - Setup do personagem](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula03.md)
+
+
