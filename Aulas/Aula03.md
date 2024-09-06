@@ -3,8 +3,8 @@
 ## 🗺️ Roadmap - Caça ao Tesouro
 
    - [x] Criar o jogo
-   - [ ] Display do personagem
-   - [ ] Controle do personagem
+   - [x] Display do personagem
+   - [x] Controle do personagem
    - [ ] Display background tiles
    - [ ] Display objects
 
