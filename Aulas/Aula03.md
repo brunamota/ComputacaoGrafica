@@ -1,4 +1,4 @@
-# Aula 3 -  Criando um game loop
+# Aula 3 - Setup do personagem
 
 ## 🗺️ Roadmap - Caça ao Tesouro
 
