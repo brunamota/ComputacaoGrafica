@@ -17,10 +17,6 @@
    - [x] Criar o mapa de tile em um arquivo txt
      - [x] [mapa01.zip](https://github.com/user-attachments/files/16987751/mapa01.zip)
    - [x] Criar um loadMap() e chamar ele no construtor de TileManager
-   - [x] Criar pacote player e colocar imagens
-      - [x]  [Sprites Andando.zip](https://github.com/user-attachments/files/16901504/Sprites.Andando.zip)
-   - [x] Colocar sprites na interface
-   - [x] Criar animação
 
 ### Tile
 
