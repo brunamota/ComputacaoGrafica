@@ -15,20 +15,8 @@
    - [x] Criar pacote tile e criar uma classe chamada Tile e outra chamada TileManager
    - [x] Instaciar o TileManager no GamePanel
    - [x] Criar o mapa de tile em um arquivo txt
-     - [x] [Uploadin1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1
-1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
-1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
-1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
-1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
-1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
-1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
-1 0 0 0 0 0 2 2 2 2 0 0 0 0 0 1
-1 0 0 0 0 0 2 2 2 2 0 0 0 0 0 1
-1 0 0 0 0 0 2 2 2 2 0 0 0 0 0 1
-1 0 0 0 0 0 2 2 2 2 0 0 0 0 0 1
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1g mapa01.txt…]()
-
-   - [x] Criar um loadMap()
+     - [x] [mapa01.zip](https://github.com/user-attachments/files/16987751/mapa01.zip)
+   - [x] Criar um loadMap() e chamar ele no construtor de TileManager
    - [x] Criar pacote player e colocar imagens
       - [x]  [Sprites Andando.zip](https://github.com/user-attachments/files/16901504/Sprites.Andando.zip)
    - [x] Colocar sprites na interface
@@ -52,22 +40,27 @@ public class Tile {
 ### TileManager
 
 ``` java
-
 package tiles;
 
 import aula01cg.GamePanel;
 import java.awt.Graphics2D;
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import javax.imageio.ImageIO;
 
 public class TileManager {
     GamePanel gp;
     Tile[] tile;
+    int mapTileNum[][];
 
     public TileManager(GamePanel gp) {
         this.gp = gp;
         tile = new Tile[10];
+        mapTileNum = new int [gp.maxTelaColuna][gp.maxTelaLinha]; 
         getTileImage();
+        loadMap("/mapa/map01.txt");
     }
     
     public void getTileImage(){
@@ -83,14 +76,57 @@ public class TileManager {
         }
     }
     
+    public void loadMap(String filePath){
+        try {
+            InputStream is = getClass().getResourceAsStream(filePath);
+            BufferedReader br = new BufferedReader(new InputStreamReader(is));
+            
+            int col = 0;
+            int row = 0;
+            while(col < gp.maxTelaColuna && row < gp.maxTelaLinha){
+                String line = br.readLine();
+                while(col < gp.maxTelaColuna){
+                    String numbers[] = line.split(" ");
+                    
+                    int num = Integer.parseInt(numbers[col]);
+                    
+                    mapTileNum[col][row] = num;
+                    col++;
+                }
+                if(col == gp.maxTelaColuna){
+                    col = 0;
+                    row++;
+                }
+            }
+            br.close();
+        } catch (Exception e) {
+        }
+    }
+    
     public void draw(Graphics2D g2){
-        g2.drawImage(tile[0].image, 0, 0, gp.tileTamanho, gp.tileTamanho, null);
-        g2.drawImage(tile[1].image, 48, 0, gp.tileTamanho, gp.tileTamanho, null);
-        g2.drawImage(tile[2].image, 2*48, 0, gp.tileTamanho, gp.tileTamanho, null);
+        int col = 0;
+        int row = 0;
+        int x = 0;
+        int y = 0;
+        
+        while(col<gp.maxTelaColuna && row < gp.maxTelaLinha){
+            
+            int tileNum = mapTileNum[col][row];
+            
+            g2.drawImage(tile[tileNum].image, x, y, gp.tileTamanho, gp.tileTamanho, null);
+            col++;
+            x += gp.tileTamanho;
+            if(col == gp.maxTelaColuna){
+                col = 0;
+                x = 0;
+                row++;
+                y+= gp.tileTamanho;
+            }
+        }
+             
     }
        
 }
-
 ```
 
 ### GamePanel
@@ -104,6 +140,7 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import javax.swing.JPanel;
+import tiles.TileManager;
 
 public class GamePanel extends JPanel implements Runnable{
     
@@ -132,6 +169,9 @@ public class GamePanel extends JPanel implements Runnable{
     int playerX = 100;
     int playerY = 100;
     int playerSpeed = 4;
+    
+    
+    TileManager tileM = new TileManager(this);
     
     public GamePanel(){
         this.setPreferredSize(new Dimension(telaLargura, telaAltura));
@@ -195,11 +235,13 @@ public class GamePanel extends JPanel implements Runnable{
         super.paintComponent(g);
         
         Graphics2D g2 = (Graphics2D) g;
-       
+        
+        tileM.draw(g2);
         player.draw(g2);
         
         g2.dispose();
     }
     
 }
+
 ```
