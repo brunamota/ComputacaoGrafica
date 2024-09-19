@@ -14,4 +14,6 @@
 
 ![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 4 - Criando fundo baseados nos tiles](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula04.md)
 
+![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 5 - Mapa e Câmera do personagem](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula05.md)
+
 
