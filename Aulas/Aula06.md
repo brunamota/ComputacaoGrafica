@@ -1,4 +1,4 @@
-# Aula 5 - Mapa e Câmera do personagem
+# Aula 6 - Colisões
 
 ## 🗺️ Roadmap - Caça ao Tesouro
 
