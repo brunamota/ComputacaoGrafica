@@ -20,7 +20,7 @@
    - [x] Setar o CollisionChecker para o player no update()
    - [x] Ajustar checkTile()
    - [x] Reorganizar o update()
-   - [x] Terminar 
+   - [x] Terminar checkTile()
 
 ### TileManager
 ``` java
