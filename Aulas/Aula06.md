@@ -12,7 +12,7 @@
 
 ## 🔧 Project SetUp
 
-   - [x] Setar collision para true para agua, parede e arvore no Entity Manager
+   - [x] Setar collision para true para agua, parede e arvore no TileManager
    - [x] Criar atributos para colisão no Entity
    - [x] Instanciar o Retangulo na classe Player
    - [x] Criar a classe CollisionChecker
