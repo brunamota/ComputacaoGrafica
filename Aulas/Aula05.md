@@ -1,4 +1,4 @@
-# Aula 5 - Mapa e Câmera do personagem
+# Aula 5 - Câmera do personagem
 
 ## 🗺️ Roadmap - Caça ao Tesouro
 
