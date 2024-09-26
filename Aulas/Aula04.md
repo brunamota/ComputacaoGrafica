@@ -1,13 +1,14 @@
 # Aula 4 - Criando fundo baseados nos tiles
 
 ## 🗺️ Roadmap - Caça ao Tesouro
-   - [x] Criar o jogo
-   - [x] Display do personagem
-   - [x] Controle do personagem
-   - [ ] Display background tiles
+
+   - [x] Configurações da tela do jogo
+   - [x] Criando um game loop (60 FPS)
+   - [x] Display e controle do personagem
+   - [x] Display background tiles
    - [ ] Câmera do personagem
    - [ ] Colisões
-   - [ ] Exibir objetos
+   - [ ] Display de objetos
    - [ ] Interação com objetos
    - [ ] Trilha sonora
 
