@@ -1,4 +1,4 @@
-# Aula 6 - Colisões
+# Aula 7 - Exibir objetos
 
 ## 🗺️ Roadmap - Caça ao Tesouro
 
