@@ -4,9 +4,8 @@
 
    - [x] Configurações da tela do jogo
    - [x] Criando um game loop (60 FPS)
-   - [ ] Display do personagem
-   - [ ] Controle do personagem
-   - [ ] Display background tiles
+   - [x] Display e controle do personagem
+   - [x] Display background tiles
    - [ ] Câmera do personagem
    - [ ] Colisões
    - [ ] Display de objetos
