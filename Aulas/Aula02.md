@@ -2,13 +2,14 @@
 
 ## 🗺️ Roadmap - Caça ao Tesouro
 
-   - [x] Criar o jogo
+   - [x] Configurações da tela do jogo
+   - [ ] Criando um game loop (60 FPS)
    - [ ] Display do personagem
    - [ ] Controle do personagem
    - [ ] Display background tiles
    - [ ] Câmera do personagem
    - [ ] Colisões
-   - [ ] Exibir objetos
+   - [ ] Display de objetos
    - [ ] Interação com objetos
    - [ ] Trilha sonora
 
