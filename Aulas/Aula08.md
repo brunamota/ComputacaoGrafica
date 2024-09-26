@@ -1,4 +1,4 @@
-# Aula 8 - Display de objetos
+# Aula 8 - Interação com objetos
 
 ## 🗺️ Roadmap - Caça ao Tesouro
 
