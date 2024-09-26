@@ -8,7 +8,7 @@
    - [x] Display background tiles
    - [x] Câmera do personagem
    - [x] Colisões
-   - [x] Exibir objetos
+   - [ ] Exibir objetos
    - [ ] Interação com objetos
    - [ ] Trilha sonora
 
