@@ -1,14 +1,14 @@
-# Aula 7 - Exibir objetos
+# Aula 7 - Display de objetos
 
 ## 🗺️ Roadmap - Caça ao Tesouro
 
-   - [x] Criar o jogo
-   - [x] Display do personagem
-   - [x] Controle do personagem
+   - [x] Configurações da tela do jogo
+   - [x] Criando um game loop (60 FPS)
+   - [x] Display e controle do personagem
    - [x] Display background tiles
    - [x] Câmera do personagem
    - [x] Colisões
-   - [x] Exibir objetos
+   - [x] Display de objetos
    - [ ] Interação com objetos
    - [ ] Trilha sonora
 
