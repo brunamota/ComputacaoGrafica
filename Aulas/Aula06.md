@@ -8,7 +8,9 @@
    - [x] Display background tiles
    - [x] Câmera do personagem
    - [x] Colisões
-   - [ ] Display objects
+   - [x] Exibir objetos
+   - [ ] Interação com objetos
+   - [ ] Trilha sonora
 
 ## 🔧 Project SetUp
 
