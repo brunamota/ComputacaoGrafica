@@ -6,9 +6,9 @@
 
 ![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 1 -  O mecanismo dos jogos 2D](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula01.md)
 
-![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 2 - Criando um game loop](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula02.md)
+![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 2 - Criando um game loop (60 FPS)](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula02.md)
 
-![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 3 - Setup do personagem](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula03.md)
+![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 3 - Display e controle do personagem](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula03.md)
 
 ![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 4 - Criando fundo baseados nos tiles](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula04.md)
 
