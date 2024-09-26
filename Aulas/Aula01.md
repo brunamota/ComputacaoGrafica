@@ -6,7 +6,11 @@
    - [ ] Display do personagem
    - [ ] Controle do personagem
    - [ ] Display background tiles
-   - [ ] Display objects
+   - [ ] Câmera do personagem
+   - [ ] Colisões
+   - [ ] Exibir objetos
+   - [ ] Interação com objetos
+   - [ ] Trilha sonora
 
 ## 🔧 Project SetUp
 
