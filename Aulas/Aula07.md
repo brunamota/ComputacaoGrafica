@@ -44,7 +44,18 @@ public class SuperObject {
     public boolean collision = false;
     public int worldX, worldY;
     
-  
+   public void draw(Graphics2D g2, GamePanel gp){
+        int screenX = worldX - gp.player.worldX + gp.player.screenX;
+        int screenY = worldY - gp.player.worldY + gp.player.screenY;
+ 
+            if(worldX + gp.tileTamanho > gp.player.worldX - gp.player.screenX &&
+               worldX - gp.tileTamanho < gp.player.worldX + gp.player.screenX &&
+               worldY + gp.tileTamanho > gp.player.worldY - gp.player.screenY &&
+               worldY - gp.tileTamanho < gp.player.worldY + gp.player.screenY){
+                
+               g2.drawImage(image, screenX, screenY, gp.tileTamanho, gp.tileTamanho, null);
+            }
+    }
 }
 
 ```
