@@ -18,7 +18,7 @@
    - [x] Criar um retangulo para os objetos na classe SuperObject
    - [x] Setar collision para true na classe ObjectDoor e ObjectKey
    - [x] Criar o método checkObject() no CollisionChecker
-   - [x] Chamar checkObject() no Player
+   - [x] Chamar checkObject() no update() da classe Player
    - [x] Criar pickUpObject() no Player
          
 ### Entity
