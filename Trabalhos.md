@@ -8,5 +8,5 @@
 
 ![iconGitGolden](https://github.com/user-attachments/assets/d565c073-5f73-44e3-8668-5ea7e1971764) [Trabalho 2 - Jogo de Corrida](https://github.com/user-attachments/files/16996582/Trabalho.2.-.Jogo.de.Corrida.pdf)
 
-
+![iconGitGolden](https://github.com/user-attachments/assets/d565c073-5f73-44e3-8668-5ea7e1971764) [Trabalho 3 - Jogos Clássicos do Atari]
 
