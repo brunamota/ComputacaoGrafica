@@ -11,6 +11,7 @@
    - [x] Display de objetos
    - [x] Interação com objetos
    - [x] Trilha sonora
+   - [ ] Finalizar o Jogo
 
 ## 🔧 Project SetUp
 
