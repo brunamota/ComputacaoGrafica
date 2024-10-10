@@ -18,7 +18,7 @@
    - [x] Instanciar a bota no AssetSetter
    - [x] Criar um case para a Bota na pickUpObject() na classe Player
    - [x] Criar um pacote chamado musica
-      - [ ] [Musicas.zip](https://github.com/user-attachments/files/17335188/Musicas.zip)
+      - [x] [Musicas.zip](https://github.com/user-attachments/files/17335188/Musicas.zip)
    - [x] Criar a classe Musica no pacote principal
    - [x] Ir para o GamePanel e instanciar a classe Musica
    - [x] Criar 3 metodos dentro de GamePanel
