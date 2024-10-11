@@ -17,8 +17,8 @@
 
    - [x] Criar uma nova classe chamada UI no pacote principal
    - [x] Chamar o draw no paintComponent() do GamePanel
-   - [ ] Ir na classe player no método pickUpObject() e chamar a mensagem na Key, Door e Boots
-   - [ ] Criar um case para o Chest
+   - [x] Ir na classe player no método pickUpObject() e chamar a mensagem na Key, Door e Boots
+   - [x] Criar um case para o Chest
          
 ### UI
 ``` java
