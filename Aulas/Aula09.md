@@ -334,6 +334,7 @@ public class Musica {
 
 ```Java
 
+
 package aula01cg;
 
 import config_object.SuperObject;
@@ -369,11 +370,12 @@ public class GamePanel extends JPanel implements Runnable{
     public int FPS = 60;
     
     Musica musica = new Musica();
+    Musica efeito = new Musica();
     
     KeyHandler tecla = new KeyHandler();
     public CollisionChecker cChecker = new CollisionChecker(this);
     public AssetSetter aSetter = new AssetSetter(this);
-    
+
     Thread gameThread;
     
     public Player player = new Player(this, tecla);   
@@ -467,6 +469,8 @@ public class GamePanel extends JPanel implements Runnable{
         
         player.draw(g2);
         
+        ui.draw(g2);
+        
         g2.dispose();
     }
     
@@ -481,10 +485,11 @@ public class GamePanel extends JPanel implements Runnable{
     }
     
     public void playSE(int i){
-        musica.setFile(i);
-        musica.play();
+        efeito.setFile(i);
+        efeito.play();
     }
     
 }
+
 ```
 
