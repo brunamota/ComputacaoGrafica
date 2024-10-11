@@ -22,4 +22,4 @@
 
 ![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 9 - Trilha sonora](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula09.md)
 
-![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 10 - Últimos retoques](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula09.md)
+![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 10 - Últimos retoques](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula10.md)
