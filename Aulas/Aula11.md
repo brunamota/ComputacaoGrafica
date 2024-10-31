@@ -16,7 +16,7 @@
  - [x] Na aba Hierarchy, criar um 3D object do tipo Sphere
  - [x] Renomear para Jogador
  - [x] Na aba Inspector, clicar no botão Add Component e adicionar um RigidBody
- - [x] Na aba Hierarchy, criar um 3D object do tipo Cube, colocar na posição 0,0,0 e de escala 20, 0.1, 20
+ - [x] Na aba Hierarchy, criar um 3D object do tipo Cube, colocar na posição 0, 0, 0 e de escala 20, 0.1, 20
  - [x] Criar um pasta dentro de project chamada Scripts
  - [x] Criar um script chamado ControleDoJogador
 
