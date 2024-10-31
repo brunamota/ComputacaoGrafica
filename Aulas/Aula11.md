@@ -1,1 +1,1 @@
-# Configurango ambiente
+# Configurando ambiente
