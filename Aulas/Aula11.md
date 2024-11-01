@@ -19,6 +19,10 @@
  - [x] Na aba Hierarchy, criar um 3D object do tipo Cube, colocar na posição 0, 0, 0 e de escala 20, 0.1, 20
  - [x] Criar um pasta dentro de project chamada Scripts
  - [x] Criar um script chamado ControleDoJogador
+ - [x] Instanciar variáveis
+ - [x] Criar método movimentarBola()
+ - [x] Colocar o script no jogador
+ - [x] Adicionar o RigidBody e a velocidade
 
 ### ControleDoJogador
 
@@ -31,6 +35,10 @@ public class ControleDoJogador : MonoBehaviour
 {
 
     public float velocidadeDoJogador;
+    public Rigidbody rigidBody;
+    private float movimentoX;
+    private float movimentoZ;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +48,14 @@ public class ControleDoJogador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        movimentarBola();
+    }
+
+    private void movimentarBola(){
+        movimentoX = Input.GetAxis("Horizontal") * velocidadeDoJogador;
+        movimentoZ = Input.GetAxis("Vertical") * velocidadeDoJogador;
+
+        rigidBody.AddForce(movimentoX, 0f, movimentoZ);
     }
 }
 ```
