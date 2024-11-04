@@ -25,11 +25,9 @@ Sexta - 9h30 às 11h10 - LEC 03
 
 ![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) Entrega Trabalho 2 - 18/10/2024
 
-![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) Entrega Trabalho 3 - 08/11/2024
+![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) Entrega Trabalho 3 - 06/12/2024
 
 ![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) Semana da Computação - 25/11 a 29/11
-
-![iconGitMorango](https://github.com/user-attachments/assets/8fc95e93-8995-4090-bac8-72d46ddf9911) Entrega Trabalho 4 - 13/12/2024
 
 ## Ferramentas utilizada na matéria
 
