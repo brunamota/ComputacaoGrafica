@@ -10,7 +10,8 @@
 - [x] Criar materiais com o nome Vermelho, Verde, Azul e Amarelo
 - [x] Arrastar o vermelho para o Jogador e o verde para o Piso
 - [x] Modificar a posição da câmera para a visão top down colocando:
-    - Posição → X: 0, Y: 12, Z: -15 e Rotação → X: 45, Y: 0, Z: 0
+    - Posição → X: 0, Y: 12, Z: -15
+    - Rotação → X: 45, Y: 0, Z: 0
 - [x] Criar 4 paredes:
     - Posição → X: 0, Y: 0.45, Z: 10.5, Rotação → X: 0, Y: 0, Z: 0, Escala → X: 20, Y: 1, Z: 1
     - Posição → X: 0, Y: 0.45, Z: -10.5, Rotação → X: 0, Y: 0, Z: 0, Escala → X: 20, Y: 1, Z: 1
