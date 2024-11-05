@@ -1,4 +1,4 @@
-# Aula 12
+# Aula 12 - Organizando o Cenário
 
 ## 🗺️ Roadmap
 - [x] Configurando ambiente
