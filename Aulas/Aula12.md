@@ -20,7 +20,9 @@
 - [x] Colocar cor amarela no objeto Moeda
 - [x] Dar um check no Is Triger do Colider da Moeda
 - [x] Criar um Script chamado Moedas e outro chamado GameManager
-- [ ] Criar tag para Jogador
+- [x] Colocar a tag Player no objeto Jogador
+- [x] Criar um objeto vazio para colocar o script GameManager
+- [x] Colocar o script Moedas no objeto Moeda
 
 ### Moedas
 
