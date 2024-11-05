@@ -20,5 +20,54 @@
 - [x] Colocar cor amarela no objeto Moeda
 - [x] Dar um check no Is Triger do Colider da Moeda
 - [x] Criar um Script chamado Moedas e outro chamado GameManager
+- [ ] Criar tag para Jogador
 
 ### Moedas
+
+``` C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Moedas : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        FindObjectOfType<GameManager>().moedasFase += 1;
+    }
+
+    void OnTriggerEnter(Collider other){
+        if(other.gameObject.CompareTag("Player")){
+            Destroy(this.gameObject);
+        }
+
+    }
+
+}
+```
+
+### GameManager
+
+``` C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GameManager : MonoBehaviour
+{
+    public int moedasFase;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+```
