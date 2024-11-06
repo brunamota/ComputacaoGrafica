@@ -1,4 +1,4 @@
-# Aula 12 - Organizando o Cenário
+# Aula 12 - Configurando itens coletáveis
 
 ## 🗺️ Roadmap
 - [x] Configurando ambiente
@@ -27,6 +27,9 @@
 - [x] Colocar a tag Player no objeto Jogador
 - [x] Criar um objeto vazio para colocar o script GameManager
 - [x] Colocar o script Moedas no objeto Moeda
+- [ ] Arrastar som de moeda para a aba Hierarchy
+- [x] Criar uma variável para o som da moeda
+- [x] Criar um método chamado descontarMoedas()
 
 ### Moedas
 
@@ -45,6 +48,7 @@ public class Moedas : MonoBehaviour
 
     void OnTriggerEnter(Collider other){
         if(other.gameObject.CompareTag("Player")){
+            FindObjectOfType<GameManager>().descontarMoedas();
             Destroy(this.gameObject);
         }
 
@@ -63,6 +67,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int moedasFase;
+    public AudioSource somMoeda;
 
     // Start is called before the first frame update
     void Start()
@@ -74,6 +79,11 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void descontarMoedas(){
+        moedasFase -= 1;
+        somMoeda.Play();
     }
 }
 ```
