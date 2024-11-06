@@ -1,10 +1,10 @@
-# Aula 13
-
+# Aula 13 - Reiniciar jogo após Game Over
 ## 🗺️ Roadmap
 - [x] Configurando ambiente
 - [x] Iniciando configuração do jogador
 - [x] Terminando cenário
 - [x] Criando a lógica inicial das moedas
+- [x] Criando bombas que destroem o jogador
 
 ## 🔧 Project SetUp
 
@@ -15,9 +15,10 @@
     - Escala → X: 0.5, Y: 0.5, Z: 0.5
 - [x] Criar um material da cor Roxa
 - [x] No GameManager importar o 'using UnityEngine.SceneManagement;'
-- [x] Criar a variavel somMoeda do tipo AudioSource
+- [x] Criar a variável somMoeda do tipo AudioSource
 - [x] Criar método reiniciarPartida()
 - [x] Criar um script chamado Bombas
+- [x] Arrastar script para o game object bomba
 
 ### GameManager
 
