@@ -20,6 +20,7 @@
 - [x] Criar um script chamado Bombas
 - [x] Arrastar script para o game object bomba
 
+## 📝 Scripts
 ### GameManager
 
 ``` C#
