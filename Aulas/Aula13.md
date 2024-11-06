@@ -17,7 +17,7 @@
 - [x] No GameManager importar o 'using UnityEngine.SceneManagement;'
 - [x] Criar a variavel somMoeda do tipo AudioSource
 - [x] Criar método reiniciarPartida()
-- [ ] Criar um script chamado Bombas
+- [x] Criar um script chamado Bombas
 
 ### GameManager
 
