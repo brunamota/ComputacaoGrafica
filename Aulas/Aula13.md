@@ -19,7 +19,7 @@
 - [x] Criar método reiniciarPartida()
 - [x] Criar um script chamado Bombas
 - [x] Arrastar script para o game object bomba
-- [ ] Criar prefabs para o Jogador e Bomba
+- [x] Criar prefabs para o Jogador e Bomba
 
 ## 📝 Scripts
 ### GameManager
