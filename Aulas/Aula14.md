@@ -1,3 +1,16 @@
-https://assetstore.unity.com/packages/3d/characters/3d-monster-bomb-145319
-https://assetstore.unity.com/packages/3d/characters/humanoids/character-pack-free-sample-79870
-https://assetstore.unity.com/packages/3d/props/pirate-coin-207743
+# Aula 14 - Criação de fases
+
+## 🗺️ Roadmap
+- [x] Configurando ambiente
+- [x] Iniciando configuração do jogador
+- [x] Terminando cenário
+- [x] Criando a lógica inicial das moedas
+- [x] Criando bombas que destroem o jogador
+- [x] Criar fases
+
+## 🔧 Project SetUp
+
+- [x]
+
+## 📝 Scripts
+### GameManager
