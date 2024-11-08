@@ -29,3 +29,5 @@
 ![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 12 - Configurando itens coletáveis](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula12.md)
 
 ![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 13 - Reiniciar jogo após Game Over](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula13.md)
+
+![iconGitPassaro](https://github.com/user-attachments/assets/1a96255b-f0d7-4b00-8c06-16111952e306) [Aula 14 - Criação de fases](https://github.com/brunamota/ComputacaoGrafica/blob/main/Aulas/Aula14.md)
