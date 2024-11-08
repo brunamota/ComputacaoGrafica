@@ -16,6 +16,7 @@
 - [x] Alterar o game manager para saber quando todas as moedas foram coletadas e carregar a práxima fase
 - [x] Alterar o Building Settings
 - [x] Criar a fase 3 utilizando o Ctrl+D e fazer diferenciação das fases
+- [x] Criar opção de recomeçar fase
 
 ## 📝 Scripts
 ### GameManager
