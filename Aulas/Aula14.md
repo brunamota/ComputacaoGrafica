@@ -35,13 +35,19 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.R)){
+            reiniciarPartida();
+        } 
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            Debug.Log("Saiu");
+            encerrarJogo();
+        }
     }
 
     public void descontarMoedas(){
@@ -54,6 +60,10 @@ public class GameManager : MonoBehaviour
 
     public void reiniciarPartida(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void encerrarJogo(){
+        Application.Quit();
     }
 }
 ```
