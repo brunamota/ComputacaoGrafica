@@ -14,6 +14,7 @@
     -  [Menu.zip](https://github.com/user-attachments/files/17740465/Menu.zip)
 - [x] Criar uma cena nova chamada Menu
 - [x] Criar um Canva utilziando UI
+- [ ] Mudar o Canvas Scaler para Scale With Screen Size e mudar resolução para 1920x1080
 - [x] Criar um Painel
 - [ ] Colocar o BackGround e colocar o Alpha no 255
 
