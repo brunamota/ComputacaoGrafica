@@ -12,7 +12,10 @@
 
 - [x] Criar uma pasta chamada Canva e colocar os itens dentro
     -  [Menu.zip](https://github.com/user-attachments/files/17740465/Menu.zip)
+- [x] Criar uma cena nova chamada Menu
 - [x] Criar um Canva utilziando UI
+- [x] Criar um Painel
+- [ ] Colocar o BackGround e colocar o Alpha no 255
 
 ## 📝 Scripts
 ### Menu
