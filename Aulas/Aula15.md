@@ -11,7 +11,8 @@
 ## 🔧 Project SetUp
 
 - [x] Criar uma pasta chamada Canva e colocar os itens dentro
-    -  [Menu.zip](https://github.com/user-attachments/files/17740465/Menu.zip)
+    -  [Menu.zip](https://github.com/user-attachments/files/17741018/Menu.zip)
+
 - [x] Criar uma cena nova chamada Menu
 - [x] Criar um Canva utilziando UI
 - [x] Mudar o Canvas Scaler para Scale With Screen Size e mudar resolução para 1920x1080
