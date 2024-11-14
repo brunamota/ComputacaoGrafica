@@ -22,6 +22,10 @@
 - [x] Mudar o texto para Começar e colocar a fonte Montserrat
 - [x] Mudar a cor de highlighted colocar para D9A1FB e Fade Duration para 0.3
 - [x] Fazer isso para 3 botões: Começar, Opções e Sair
+- [ ] Colocar cada botão nas posições:
+    - Começar → X: 2, Y: 250, Z: 0
+    - Opções → X: 2, Y: 0, Z: 0
+    - Sair → X: 2, Y: -250, Z: 4
 - [ ] 
 
 ## 📝 Scripts
