@@ -26,7 +26,9 @@
     - Começar → X: 2, Y: 250, Z: 0
     - Opções → X: 2, Y: 0, Z: 0
     - Sair → X: 2, Y: -250, Z: 4
-- [ ] Criar um objeto vazio dentro do canva chamado MenuPrincipal e mudar o ponto de ancoragem para o centro
+- [x] Criar um objeto vazio dentro do canva chamado MenuPrincipal, mudar o ponto de ancoragem para o centro e zerar todas as posiçoes
+- [ ] Arrastar os botões criados para dentro do MenuPrincipal
+- [ ] Criar um objeto vazio chamado Opções e colocar de tamanho 1000x700
 
 ## 📝 Scripts
 ### Menu
