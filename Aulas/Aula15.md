@@ -21,15 +21,37 @@
 - [x] Colocar a imagem do Sprite
 - [x] Mudar o texto para Começar, tamanho 80 e colocar a fonte Montserrat
 - [x] Mudar a cor de highlighted colocar para D9A1FB e Fade Duration para 0.3
-- [x] Fazer isso para 3 botões: Começar, Opções e Sair
-- [ ] Colocar cada botão nas posições:
-    - Começar → X: 2, Y: 250, Z: 0
-    - Opções → X: 2, Y: 0, Z: 0
-    - Sair → X: 2, Y: -250, Z: 4
+- [x] Fazer isso para 2 botões: Começar e Sair
+- [x] Colocar cada botão nas posições:
+    - Começar → X: 0, Y: -25, Z: 0
+    - Sair → X: 0, Y: -275, Z: 0
 - [x] Criar um objeto vazio dentro do canva chamado MenuPrincipal, mudar o ponto de ancoragem para o centro e zerar todas as posiçoes
-- [ ] Arrastar os botões criados para dentro do MenuPrincipal
-- [ ] Criar um objeto vazio chamado Opções e colocar de tamanho 1000x750
-- [ ] Criar uma imagem, colocar o sprite, mudar o ponto de ancoragem para o centro e zerar todas as posiçoes
-- [ ] Criar um texto, colocar o nome título, mudar o texto para Opções, ancorar na parte superior, mudar tamanho para 700x200, aumentar fonte para 100, alinhar no centro e colocar na posição X: 40, Y: -110, Z: 0
+- [x] Arrastar os botões criados para dentro do MenuPrincipal
+- [x] Criar um Script MenuManager para funcionar os botões
+- [x] Criar um objeto vazio chamado MenuManager e arrastar o script
+- [x] Configurar botões com On Click ()
+
 ## 📝 Scripts
-### Menu
+### MenuManager
+
+``` C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MenuManager : MonoBehaviour
+{
+    public string nomeProximaFase;
+    public GameObject painelMenu;
+    public GameObject painelOpcoes;
+
+    public void Começar(){
+        SceneManager.LoadScene(nomeProximaFase);
+    }
+
+     public void Sair(){
+        Application.Quit();
+    }
+}
+```
