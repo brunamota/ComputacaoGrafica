@@ -30,6 +30,6 @@
 - [ ] Arrastar os botões criados para dentro do MenuPrincipal
 - [ ] Criar um objeto vazio chamado Opções e colocar de tamanho 1000x750
 - [ ] Criar uma imagem, colocar o sprite, mudar o ponto de ancoragem para o centro e zerar todas as posiçoes
-- [ ] Criar um texto, colocar o nome título, mudar o texto para Opções
+- [ ] Criar um texto, colocar o nome título, mudar o texto para Opções, ancorar na parte superior, mudar tamanho para 700x200, aumentar fonte para 100, alinhar no centro e colocar na posição X: 40, Y: -110, Z: 0
 ## 📝 Scripts
 ### Menu
