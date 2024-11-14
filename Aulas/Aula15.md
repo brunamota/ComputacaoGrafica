@@ -26,7 +26,7 @@
     - Começar → X: 2, Y: 250, Z: 0
     - Opções → X: 2, Y: 0, Z: 0
     - Sair → X: 2, Y: -250, Z: 4
-- [ ] 
+- [ ] Criar um objeto vazio dentro do canva chamado MenuPrincipal e mudar o ponto de ancoragem para o centro
 
 ## 📝 Scripts
 ### Menu
