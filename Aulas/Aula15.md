@@ -14,9 +14,15 @@
     -  [Menu.zip](https://github.com/user-attachments/files/17740465/Menu.zip)
 - [x] Criar uma cena nova chamada Menu
 - [x] Criar um Canva utilziando UI
-- [ ] Mudar o Canvas Scaler para Scale With Screen Size e mudar resolução para 1920x1080
+- [x] Mudar o Canvas Scaler para Scale With Screen Size e mudar resolução para 1920x1080
 - [x] Criar um Painel
-- [ ] Colocar o BackGround e colocar o Alpha no 255
+- [x] Colocar o BackGround e colocar o Alpha no 255
+- [x] Criar um botão, colocar o tamanho dele em 700x200
+- [x] Colocar a imagem do Sprite
+- [x] Mudar o texto para Começar e colocar a fonte Montserrat
+- [x] Mudar a cor de highlighted colocar para D9A1FB e Fade Duration para 0.3
+- [x] Fazer isso para 3 botões: Começar, Opções e Sair
+- [ ] 
 
 ## 📝 Scripts
 ### Menu
