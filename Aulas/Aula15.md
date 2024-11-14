@@ -44,7 +44,6 @@ public class MenuManager : MonoBehaviour
 {
     public string nomeProximaFase;
     public GameObject painelMenu;
-    public GameObject painelOpcoes;
 
     public void Começar(){
         SceneManager.LoadScene(nomeProximaFase);
