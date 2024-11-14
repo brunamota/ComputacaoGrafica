@@ -19,7 +19,7 @@
 - [x] Colocar o BackGround e colocar o Alpha no 255
 - [x] Criar um botão, colocar o tamanho dele em 700x200
 - [x] Colocar a imagem do Sprite
-- [x] Mudar o texto para Começar e colocar a fonte Montserrat
+- [x] Mudar o texto para Começar, tamanho 80 e colocar a fonte Montserrat
 - [x] Mudar a cor de highlighted colocar para D9A1FB e Fade Duration para 0.3
 - [x] Fazer isso para 3 botões: Começar, Opções e Sair
 - [ ] Colocar cada botão nas posições:
@@ -30,6 +30,6 @@
 - [ ] Arrastar os botões criados para dentro do MenuPrincipal
 - [ ] Criar um objeto vazio chamado Opções e colocar de tamanho 1000x750
 - [ ] Criar uma imagem, colocar o sprite, mudar o ponto de ancoragem para o centro e zerar todas as posiçoes
-
+- [ ] Criar um texto, colocar o nome título, mudar o texto para Opções
 ## 📝 Scripts
 ### Menu
