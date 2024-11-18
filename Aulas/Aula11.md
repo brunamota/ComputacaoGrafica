@@ -1,7 +1,8 @@
 # Aula 11 - Primeiros passos para criar um jogo 3D usando a Unity
 
 ## 🗺️ Roadmap
-- [x] Configurando ambiente da IDE, Engine e iniciando configuração do jogador
+- [x] Configurando ambiente da IDE, Engine
+- [x] Iniciando configuração do jogador
 - [ ] Configuração de cenário
 - [ ] Criando a lógica de coletáveis
 - [ ] Criando cenas de reload
