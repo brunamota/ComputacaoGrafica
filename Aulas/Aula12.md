@@ -2,13 +2,12 @@
 
 ## 🗺️ Roadmap
 - [x] Configurando ambiente da IDE e entendendo melhor a Unity
-- [x] Iniciando configuração do jogador
+- [x] Configuração do jogador e do ambiente
 - [x] Configuração de cenário e criando a lógica de coletáveis
-- [ ] Criando cenas de reload
+- [ ] Configuração um reload e criando a lógica de obstáculos
 - [ ] Criando progressão de fases
 - [ ] Criando tela de menu
 - [ ] Baixando Assets para deixar o jogo mais bonito
-
 ## 🔧 Project SetUp
 
 - [x] Criar uma pasta chamada Materiais
