@@ -1,10 +1,13 @@
 # Aula 12 - Configurando itens coletáveis
 
 ## 🗺️ Roadmap
-- [x] Configurando ambiente
+- [x] Configurando ambiente da IDE e entendendo melhor a Unity
 - [x] Iniciando configuração do jogador
-- [x] Terminando cenário
-- [x] Criando a lógica inicial das moedas
+- [x] Configuração de cenário e criando a lógica de coletáveis
+- [ ] Criando cenas de reload
+- [ ] Criando progressão de fases
+- [ ] Criando tela de menu
+- [ ] Baixando Assets para deixar o jogo mais bonito
 
 ## 🔧 Project SetUp
 
