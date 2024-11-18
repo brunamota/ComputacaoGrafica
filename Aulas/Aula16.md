@@ -22,8 +22,8 @@
 - [x] Adicionar RigidBody e em Constraints selecionar caixas do X e Y do Freeze Rotation
 - [x] Adicionar um Animator
 - [x] Criar um Controller para criar a animação
-- [ ] Criar um Avatar para o boneco
-- [ ] Desativar o Apply Root Motion
+- [x] Criar um Avatar para o boneco
+- [x] Desativar o Apply Root Motion
 - [x] Na pasta Models, selecionar personagem escolhido, criar avatar e pegar as animações de idle e walk/run
 - [x] Mudar tag do boneco para "Player" e adicionar script Controle do Jogador (fazer mudanças no script para a rotação funcionar)
 - [x] Colocar RigidBody e Animator
@@ -33,9 +33,11 @@
 - [x] Adiconar um sphere collider e acionar o Is Trigger
 - [x] Baixar asset da bombinha: [Bomba](https://assetstore.unity.com/packages/3d/characters/3d-monster-bomb-145319)
 - [x] Arrastar bomba para o mapa:
-      - Rotation → X: 0, Y: -180, Z: 0.  
+      - Rotation → X: 0, Y: -180, Z: 0
 - [x] Adiconar um sphere collider e acionar o Is Trigger
-- [x] 
+- [x] Mudar o script da bomba
+- [x] Adicionar no Game Manager o barulho de explosão
+      - [barulhoExplosao.zip](https://github.com/user-attachments/files/17805213/barulhoExplosao.zip)
 
 ## 📝 Scripts
 ### Controle do Jogador
