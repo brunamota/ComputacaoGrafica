@@ -16,19 +16,26 @@
 - [x] Selecionar Luna, Ludo ou Player
 - [x] Arrastar para o centro do jogo e ajusta:
       - Posição → X: 0, Y: 0.5, Z: 0
+      - Rotation → X: 0, Y: -180, Z: 0 
       - Escala → X: 0.5, Y: 0.5, Z: 0.5
 - [x] Adicionar Capsule Collider, ajustar para o tamanho do boneco escolhido
 - [x] Adicionar RigidBody e em Constraints selecionar caixas do X e Y do Freeze Rotation
 - [x] Adicionar um Animator
 - [x] Criar um Controller para criar a animação
 - [ ] Criar um Avatar para o boneco
-- [ ] Desativar o 
+- [ ] Desativar o Apply Root Motion
 - [x] Na pasta Models, selecionar personagem escolhido, criar avatar e pegar as animações de idle e walk/run
 - [x] Mudar tag do boneco para "Player" e adicionar script Controle do Jogador (fazer mudanças no script para a rotação funcionar)
 - [x] Colocar RigidBody e Animator
 - [x] Adicionar moeda do pacote de Assets
       - Escala → X: 0.3, Y: 0.3, Z: 0.3
 - [x] Adicionar uma rotação no script
+- [x] Adiconar um sphere collider e acionar o Is Trigger
+- [x] Baixar asset da bombinha: [Bomba](https://assetstore.unity.com/packages/3d/characters/3d-monster-bomb-145319)
+- [x] Arrastar bomba para o mapa:
+      - Rotation → X: 0, Y: -180, Z: 0.  
+- [x] Adiconar um sphere collider e acionar o Is Trigger
+- [x] 
 
 ## 📝 Scripts
 ### Controle do Jogador
@@ -92,6 +99,61 @@ public class ControleDoJogador : MonoBehaviour
 }
 ```
 
+#### Game Manager
+```C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GameManager : MonoBehaviour
+{
+    public int moedasFase;
+    public AudioSource somMoeda;
+    public AudioSource somBomba;
+    public string nomeProximaFase;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+       
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.R)){
+            reiniciarPartida();
+        } 
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            Debug.Log("Saiu");
+            encerrarJogo();
+        }
+    }
+
+    public void descontarMoedas(){
+        moedasFase -= 1;
+        somMoeda.Play();
+        if(moedasFase <= 0){
+            SceneManager.LoadScene(nomeProximaFase);
+        }
+    }
+
+    public void barulhoExplosao()
+    {
+        somBomba.Play();
+    }
+
+    public void reiniciarPartida(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void encerrarJogo(){
+        Application.Quit();
+    }
+}
+```
+
 ### Moedas
 ``` C#
 using System.Collections;
@@ -136,6 +198,7 @@ public class Bombas : MonoBehaviour
     void OnTriggerEnter(Collider other){
         if(other.gameObject.CompareTag("Player")){
             animator.SetTrigger("attack01");
+            FindObjectOfType<GameManager>().barulhoExplosao();
             StartCoroutine(tempoExplosao());
         }
     }
