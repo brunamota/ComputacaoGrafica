@@ -101,7 +101,7 @@ public class ControleDoJogador : MonoBehaviour
 }
 ```
 
-#### Game Manager
+### Game Manager
 ```C#
 using System.Collections;
 using System.Collections.Generic;
@@ -186,7 +186,7 @@ public class Moedas : MonoBehaviour
 }
 ```
 
-#### Bombas
+### Bombas
 
 ```C#
 using System.Collections;
