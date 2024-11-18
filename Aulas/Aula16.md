@@ -11,6 +11,10 @@
 
 ## 🔧 Project SetUp
 
+- [x] Baixar o Asset na Unity: [Player](https://assetstore.unity.com/packages/3d/characters/quarter-view-3d-action-assets-pack-188720)
+- [x] Importar apenas a pasta Material, Models, Prefabs e Textures
+- [x] Selecionar Luna, Ludo ou Player
+- [x] Arrastar para o centro do jogo e
 - [x] 
 
 ## 📝 Scripts
