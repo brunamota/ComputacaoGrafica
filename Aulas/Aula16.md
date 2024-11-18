@@ -14,8 +14,19 @@
 - [x] Baixar o Asset na Unity: [Player](https://assetstore.unity.com/packages/3d/characters/quarter-view-3d-action-assets-pack-188720)
 - [x] Importar apenas a pasta Material, Models, Prefabs e Textures
 - [x] Selecionar Luna, Ludo ou Player
-- [x] Arrastar para o centro do jogo e
-- [x] 
+- [x] Arrastar para o centro do jogo e ajusta:
+      - Posição → X: 0, Y: 0.5, Z: 0
+      - Escala → X: 0.5, Y: 0.5, Z: 0.5
+- [x] Adicionar Capsule Collider, ajustar para o tamanho do boneco escolhido
+- [x] Adicionar RigidBody e em Constraints selecionar caixas do X e Y do Freeze Rotation
+- [x] Adicionar um Animator
+- [x] Criar um Controller para criar a animação
+- [x] Na pasta Models, selecionar personagem escolhido, criar avatar e pegar as animações de idle e walk/run
+- [x] Mudar tag do boneco para "Player" e adicionar script Controle do Jogador (fazer mudanças no script para a rotação funcionar)
+- [x] Colocar RigidBody e Animator
+- [x] Adicionar moeda do pacote de Assets
+      - Escala → X: 0.3, Y: 0.3, Z: 0.3
+- [x] Adicionar uma rotação no script
 
 ## 📝 Scripts
 ### Controle do Jogador
@@ -76,5 +87,35 @@ public class ControleDoJogador : MonoBehaviour
         movimentoX = Input.GetAxis("Horizontal") * velocidadeDoJogador;
         movimentoZ = Input.GetAxis("Vertical") * velocidadeDoJogador;
     }
+}
+```
+
+### Moedas
+``` C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Moedas : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        FindObjectOfType<GameManager>().moedasFase += 1;
+    }
+
+    void Update()
+    {
+        transform.Rotate(new Vector3(0,45,0) * Time.deltaTime);
+    }
+
+    void OnTriggerEnter(Collider other){
+        if(other.gameObject.CompareTag("Player")){
+            FindObjectOfType<GameManager>().descontarMoedas();
+            Destroy(this.gameObject);
+        }
+
+    }
+
 }
 ```
