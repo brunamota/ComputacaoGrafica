@@ -1,11 +1,11 @@
 # Aula 16 - Usando a Assets Store
 
 ## 🗺️ Roadmap
-- [x] Configurando ambiente
+- [x] Configurando ambiente da IDE e Engine
 - [x] Iniciando configuração do jogador
-- [x] Terminando cenário
-- [x] Criando a lógica inicial das moedas
-- [x] Criando bombas que destroem o jogador
+- [x] Configuração de cenário
+- [x] Criando a lógica de coletáveis
+- [x] Criando cenas de reload
 - [x] Criando tela de menu
 - [x] Baixando Assets para deixar o jogo mais bonito
 
