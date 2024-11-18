@@ -1,11 +1,12 @@
-# Aula 14 - Criação de fases
+# Aula 14 - Criando progressão de fases
 
 ## 🗺️ Roadmap
-- [x] Configurando ambiente
+- [x] Configurando ambiente da IDE e Engine
 - [x] Iniciando configuração do jogador
-- [x] Terminando cenário
-- [x] Criando a lógica inicial das moedas
-- [x] Criando bombas que destroem o jogador
+- [x] Configuração de cenário
+- [x] Criando a lógica de coletáveis
+- [x] Criando cenas de reload
+- [x] Criando progressão de fases
 - [ ] Criando tela de menu
 - [ ] Baixando Assets para deixar o jogo mais bonito
 
