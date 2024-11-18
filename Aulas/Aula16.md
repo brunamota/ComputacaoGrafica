@@ -21,6 +21,8 @@
 - [x] Adicionar RigidBody e em Constraints selecionar caixas do X e Y do Freeze Rotation
 - [x] Adicionar um Animator
 - [x] Criar um Controller para criar a animação
+- [ ] Criar um Avatar para o boneco
+- [ ] Desativar o 
 - [x] Na pasta Models, selecionar personagem escolhido, criar avatar e pegar as animações de idle e walk/run
 - [x] Mudar tag do boneco para "Player" e adicionar script Controle do Jogador (fazer mudanças no script para a rotação funcionar)
 - [x] Colocar RigidBody e Animator
@@ -117,5 +119,31 @@ public class Moedas : MonoBehaviour
 
     }
 
+}
+```
+
+#### Bombas
+
+```C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Bombas : MonoBehaviour
+{
+    public Animator animator;
+    
+    void OnTriggerEnter(Collider other){
+        if(other.gameObject.CompareTag("Player")){
+            animator.SetTrigger("attack01");
+            StartCoroutine(tempoExplosao());
+        }
+    }
+
+    IEnumerator tempoExplosao()
+    {
+        yield return new WaitForSeconds(1.0f);
+        FindObjectOfType<GameManager>().reiniciarPartida();
+    }
 }
 ```
