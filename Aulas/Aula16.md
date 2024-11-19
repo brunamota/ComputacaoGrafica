@@ -18,6 +18,7 @@
       - Posição → X: 0, Y: 0.5, Z: 0
       - Rotation → X: 0, Y: -180, Z: 0 
       - Escala → X: 0.5, Y: 0.5, Z: 0.5
+      
 - [x] Adicionar Capsule Collider, ajustar para o tamanho do boneco escolhido
 - [x] Adicionar RigidBody e em Constraints selecionar caixas do X e Y do Freeze Rotation
 - [x] Adicionar um Animator
