@@ -15,7 +15,7 @@
 - [x] Importar apenas a pasta Material, Models, Prefabs e Textures
 - [x] Selecionar Luna, Ludo ou Player
 - [x] Arrastar para o centro do jogo e ajusta:
-      - Posição → X: 0, Y: 0.5, Z: 0
+- Posição → X: 0, Y: 0.5, Z: 0
       - Rotation → X: 0, Y: -180, Z: 0 
       - Escala → X: 0.5, Y: 0.5, Z: 0.5
       
